@@ -31,7 +31,7 @@ public class UIRootView : MonoBehaviour
     private void ClearSceneUI()
     {
         var childCount = _uiSceneContainer.childCount;
-        for (int i = 0; i < childCount; i++)
+        for (int i = childCount-1; i >= 0; i--)
         {
             Destroy(_uiSceneContainer.GetChild(i).gameObject);
         }

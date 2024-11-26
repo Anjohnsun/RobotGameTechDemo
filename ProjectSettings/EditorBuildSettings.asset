@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/_Presentation/Scenes/StructureDraft/Boot.unity
     guid: 6f1b56f50f0703347b20fa00605a6f94
   - enabled: 1
+    path: Assets/_Presentation/Scenes/StructureDraft/Menu.unity
+    guid: ad5ffb1c1985fd04c82911b712c7e1f1
+  - enabled: 1
     path: Assets/_Presentation/Scenes/StructureDraft/Gameplay.unity
     guid: 4d77a28348483ab45be2c7efe607aced
   m_configObjects:

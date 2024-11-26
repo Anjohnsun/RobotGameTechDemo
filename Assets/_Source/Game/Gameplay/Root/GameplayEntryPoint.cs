@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameplayEntryPoint : MonoBehaviour
 {
-    private event Action GoToMainMenuSceneRequested;
+    public event Action GoToMainMenuSceneRequested;
 
 
     [SerializeField] private UIGameplayRootBinder _sceneUIRootPrefab;
